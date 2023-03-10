@@ -2,7 +2,7 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 def dmission(request):
-    mission = """The College of Computing and Multimedia Studies shall produce competent and innovative 
+    mission = """MISSION - The College of Computing and Multimedia Studies shall produce competent and innovative 
                 professionals or Technopreneurs in the Information and Communication Technology (ICT) industry 
                 adequately prepared in the practice of their profession supportive of national development goals
                 and standards of global excellence."""
@@ -10,13 +10,13 @@ def dmission(request):
     return HttpResponse(mission)
 
 def dvision(request):
-    vission =  """The College of Computing and Multimedia Studies shall be a center of excellence
+    vission =  """VISSION - The College of Computing and Multimedia Studies shall be a center of excellence
                 in delivering Computing and Multimedia education."""
 
     return HttpResponse(vission)
 
 def dObjects(request):
-    objects = """After graduation, alumni of MSEUF-CCS program shall: 
+    objects = """OBJECTS - After graduation, alumni of MSEUF-CCS program shall: 
 
                 1.Be employed and demonstrate professionalism, competence and passion is solving contemporary 
                 computing problems by developing or utilizing innovative IT solution;
