@@ -15,7 +15,7 @@ def dvision(request):
 
     return HttpResponse(vission)
 
-def dObjects(request):
+def dobjects(request):
     objects = """OBJECTS - After graduation, alumni of MSEUF-CCS program shall: 
 
                 1.Be employed and demonstrate professionalism, competence and passion is solving contemporary 
